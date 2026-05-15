@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks to do</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Tasks to do</h1>
+        <p class="subtitle">Keep track of your daily task</p>
+
+        <div class="task-wrapper">
+
+            <!-- LEFT CARD -->
+            <div class="card">
+                <h2>New Task</h2>
+
+                <label>What's our next task?</label>
+
+                <input type="text" id="taskInput" placeholder="e.g. do the morning chores">
+
+                <button onclick="addTask()">Add to do List</button>
+
+                <a href="index.html" class="view-btn">
+                    View My Tasks
+                </a>
+            </div>
+
+            <!-- RIGHT CARD -->
+            <div class="card">
+                <h2>work to do</h2>
+                <ul id="previewList"></ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
